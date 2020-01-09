@@ -220,15 +220,14 @@ section {
   flex-wrap: wrap;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
+  justify-content: left;
+
   align-content: center;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch; }
   .media-container-column > * {
-    width: 100%; }
+    width: 50%; }
 
 @media (min-width: 992px) {
   .media-container-row {
